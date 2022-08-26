@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Tracker App</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" 
+        rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1 class="title">Expense Tracker App</h1>
+    <header>
+
+
+        <form action="#">
+            <span for="name">Choose description:</span>
+                    <input type="text" id="name">
+                    <span for="type">Choose a categary</span>
+                    <select id="type">
+                        <option value="chooseOne">Choose one...</option>
+                        <option value="movie">movie</option>
+                        <option value="fuel">fuel</option>
+                        <option value="electricity">electricity</option>
+                        <option value="popcorn">popcorn</option>
+                    </select>
+                    <span for="amount">Choose expenditure</span>
+                    <input type="text" id="amount">
+                    <input type="submit" id="submit" value="Submit" />
+          </form>
+
+
+    
+                    
+            
+    <ul id="listOfPeople"></ul>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+</body>
+</html>
