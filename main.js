@@ -40,7 +40,7 @@ if (document.readyState !== "loading") {
           .catch((err) => {
             const errorspan = document.createElement("span");
             errorspan.appendChild(
-              document.createTextNode("Something went wrong, Retry...")
+              document.createTextNode("Retry...")
             );
             errorspan.style.color = "red";
             currentselectedelement.appendChild(errorspan);
@@ -78,7 +78,7 @@ if (document.readyState !== "loading") {
       .catch((err) => {
         const errorspan = document.createElement("span");
         errorspan.appendChild(
-          document.createTextNode("Something went wrong, Retry...")
+          document.createTextNode(" Retry...")
         );
         errorspan.style.color = "red";
         li.appendChild(errorspan);
